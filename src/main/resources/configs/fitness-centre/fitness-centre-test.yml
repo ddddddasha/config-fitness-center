@@ -1,0 +1,10 @@
+datasource:
+  url: jdbc:postgresql://localhost:5432/test
+  driver-class-name: org.postgresql.Driver
+  username: test
+  password: qwerty
+jpa:
+  hibernate:
+    ddl-auto: update
+  database-platform: org.hibernate.dialect.PostgreSQLDialect
+
