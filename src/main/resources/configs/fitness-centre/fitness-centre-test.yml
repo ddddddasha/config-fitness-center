@@ -1,10 +1,11 @@
-datasource:
-  url: jdbc:postgresql://localhost:5432/test
-  driver-class-name: org.postgresql.Driver
-  username: test
-  password: qwerty
-jpa:
-  hibernate:
-    ddl-auto: update
-  database-platform: org.hibernate.dialect.PostgreSQLDialect
-
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fitness-centre
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
