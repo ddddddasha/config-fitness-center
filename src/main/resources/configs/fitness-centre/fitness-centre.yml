@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fitness-centre
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+clients:
+  schedule:
+    url: http://localhost:8081/api/schedule
